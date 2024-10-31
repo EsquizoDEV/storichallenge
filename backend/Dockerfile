@@ -17,6 +17,5 @@ COPY . .
 # Expose port 9999
 EXPOSE 9999
 
-# Build the app
 # Start the app
 CMD ["npm", "start"]
